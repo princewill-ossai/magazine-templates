@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: hsla(3, 5%, 60%, 10);
+  width: 100%;
+  height: 150vh;
+  margin: auto;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.logo-div {
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  padding-block: 4rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 8rem;
+  line-height: 0.7;
+  font-weight: 500;
+  text-align: center;
+}
+
+.logo-div p {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  font-size: 3rem;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.img-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.top-div {
+  margin-top: 13rem;
+}
+
+.bottom-div {
+  margin-top: -11rem;
+}
+
+.red-top {
+  /* transform: rotate(deg); */
+  width: 35rem;
+  height: 30rem;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.redbottom {
+  /* transform: rotate(90deg); */
+  width: 35rem;
+  height: 30rem;
+  margin-left: 2rem;
+  margin-top: 3.7rem;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.blue-top {
+  width: 35rem;
+  height: 30rem;
+  margin-left: 2.5rem;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-bottom: -4.5rem;
+}
+
+.blue-bottom {
+  width: 35rem;
+  height: 30rem;
+  margin-left: 0rem;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 0.7;
+}
+
+h2 span {
+  font-family: "Italianno", sans-serif;
+  font-style: italic;
+  padding-left: 4rem;
+  font-size: 13rem;
+}
+
+.titl-div {
+  margin-left: 5rem;
+  padding-top: 5rem;
+}
+
+.titl-div p {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  .card {
+    background-color: hsla(3, 5%, 60%, 10);
+    width: 100vw;
+    height: 100vh;
+    margin:0 80rem 0 0;
+    margin-top: 1rem;
+    overflow-x: hidden;
+  }
+  
+  .logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+  
+  .logo-div {
+    margin-top: -20rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: start;
+    gap: 3.5rem;
+    padding-left: 4rem;
+  }
+  
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    line-height: 0.7;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+  }
+  
+  .logo-div p {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+  
+  .flex-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: -120rem;
+    padding-left: 7rem;
+    background-color: hsla(3, 5%, 60%, 10);
+  }
+  
+  .img-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  
+  .top-div {
+    margin-top: 5rem;
+    margin-left: 114rem;
+  }
+  
+  .bottom-div {
+    padding-top: 28rem;
+    margin-left: -9rem;
+  }
+  
+  .red-top {
+    transform: rotate(90deg);
+    width: 25rem;
+    height: 18rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  
+  .redbottom {
+    transform: rotate(90deg);
+    width: 25rem;
+    height: 18rem;
+    margin-top: 3.7rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
+  .blue-top {
+    width: 20rem;
+    height: 18rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-bottom: -4.5rem;
+  }
+  
+  .blue-bottom {
+    width: 20rem;
+    height: 18rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 0.7;
+  }
+  
+  h2 span {
+    font-family: "Italianno", sans-serif;
+    font-style: italic;
+    padding-left: 0.1rem;
+    font-size: 7rem;
+  }
+  
+  .titl-div {
+    margin-top: 9rem;
+    margin-right: 6rem;
+  }
+  
+  .titl-div p {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 1.5rem;
+  }
+}

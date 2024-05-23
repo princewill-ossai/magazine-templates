@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.flex-div {
+  background-image: url(./images/magazine-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 60%;
+  padding-top: 4rem;
+  margin-inline: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40rem;
+  padding-top: 10rem;
+}
+
+.border {
+  padding: 15px !important;
+  padding-inline: 15rem;
+  border: 3px solid yellow;
+  border-bottom: none;
+  height: 140rem;
+  border-radius: 15px;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.title {
+  font-family: "Reddit Mono", monospace;
+  padding-inline: 8rem;
+}
+
+.date {
+  text-align: end;
+  padding-bottom: 3px;
+}
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+.year {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.left-div {
+  width: 30rem;
+  height: 40rem;
+}
+
+.h2-2 {
+  font-size: 7rem;
+  font-family: "poetsen One", sans-serif;
+  color: yellow;
+}
+
+.right-div {
+  width: 40rem;
+  height: 60rem;
+  text-align: end;
+}
+
+.bottom-grid div {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.bottom-grid {
+  display: grid;
+  /* grid-row-gap: 5px; */
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 20px);
+}
+
+.span-h2 {
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Reddit Mono", monospace;
+}
+
+.box-1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+
+.box-2 {
+  text-transform: lowercase;
+  font-style: italic;
+  color: yellow;
+  grid-row: 1/3;
+  grid-column: 3/5;
+}
+
+.box-3 {
+  text-transform: lowercase;
+  font-style: italic;
+  grid-row: 3/5;
+  grid-column: 1/3;
+}
+
+.box-4 {
+  grid-row: 3/5;
+  grid-column: 3/5;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 670px) {
+  
+.card {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.flex-div {
+  background-image: url(./images/magazine-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 96%;
+  padding-top: 2rem;
+  margin-inline: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding-top: 10rem;
+}
+
+.border {
+  border: 3px solid yellow;
+  border-bottom: none;
+  height: 140rem;
+  /* width: 25rem; */
+  border-radius: 15px;
+}
+.right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.title {
+  font-family: "Reddit Mono", monospace;
+  padding-inline: 1rem;
+}
+
+.date {
+  text-align: end;
+  padding-bottom: 3px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.year {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.h2-2 {
+  font-size: 3rem;
+  font-family: "poetsen One", sans-serif;
+  color: yellow;
+}
+
+.bottom-grid {
+  grid-template-columns: repeat(4, 40px);
+  grid-template-rows: repeat(4, 20px);
+}
+}
+
+@media only screen and (min-width: 671px) and (max-width: 768px) {
+  .card {
+    width: 100%;
+    overflow-y: hidden;
+  }
+  
+  .flex-div {
+    background-image: url(./images/magazine-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 96%;
+    padding-inline: 4rem;
+    padding-top: 2rem;
+    margin-inline: auto;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 10rem;
+  }
+  
+  .border {
+    border: 3px solid yellow;
+    border-bottom: none;
+    height: 140rem;
+    /* width: 25rem; */
+    border-radius: 15px;
+  }
+  .right-div {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 15rem;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .title {
+    font-family: "Reddit Mono", monospace;
+    padding-inline: 1rem;
+  }
+  
+  .date {
+    text-align: end;
+    padding-bottom: 3px;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .year {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .h2-2 {
+    font-size: 6rem;
+    font-family: "poetsen One", sans-serif;
+    color: yellow;
+  }
+  
+  .bottom-grid {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 20px);
+    width: 30rem;
+    height: 10rem;
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .card {
+    width: 100%;
+    overflow-y: hidden;
+  }
+  
+  .flex-div {
+    background-image: url(./images/magazine-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 90%;
+    padding-top: 2rem;
+    margin-inline: auto;
+    padding-inline: 5rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding-inline: 5rem;
+    padding-top: 12rem;
+  }
+  
+  .border {
+    border: 3px solid yellow;
+    border-bottom: none;
+    height: 140rem;
+    /* width: 60rem; */
+    border-radius: 15px;
+  }
+  .right-div {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .title {
+    font-family: "Reddit Mono", monospace;
+    padding-inline: 1rem;
+  }
+  
+  .date {
+    text-align: end;
+    padding-bottom: 3px;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .year {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .h2-2 {
+    font-size: 6rem;
+    font-family: "poetsen One", sans-serif;
+    color: yellow;
+  }
+
+  .right-div {
+    width: 40rem;
+    height: 60rem;
+  }
+
+  .left-div {
+    width: 50rem;
+    height: 60rem;
+  }
+  
+  .bottom-grid {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 20px);
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .flex-div {
+    background-image: url(./images/magazine-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 76%;
+    padding-top: 2rem;
+    padding-inline: 5rem;
+    margin-inline: auto;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding-inline: 5rem;
+    padding-top: 10rem;
+  }
+  
+  .border {
+    border: 3px solid yellow;
+    border-bottom: none;
+    height: 140rem;
+    /* width: 60rem; */
+    border-radius: 15px;
+  }
+  .right-div {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .title {
+    font-family: "Reddit Mono", monospace;
+    padding-inline: 1rem;
+  }
+  
+  .date {
+    text-align: end;
+    padding-bottom: 3px;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .year {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .h2-2 {
+    font-size: 6rem;
+    font-family: "poetsen One", sans-serif;
+    color: yellow;
+  }
+
+  .right-div {
+    width: 40rem;
+    height: 60rem;
+  }
+
+  .left-div {
+    width: 50rem;
+    height: 60rem;
+  }
+  
+  .bottom-grid {
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(4, 20px);
+  }
+}
